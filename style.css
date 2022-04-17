@@ -1,0 +1,26 @@
+#programming {
+  /* select 태그의 기본 화살표 속성 없애기 */
+  -o-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 200px;
+  padding: 12px 13px;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  outline: none;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(image/icon_down.png);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
+
+#programming:hover {
+  outline: 3px solid #f8e4ff;
+}
+
+#programming:focus {
+  border: 1px solid #9b51e0;
+}
